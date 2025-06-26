@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+body{
+    background-color: #189AB4;
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    text-shadow:0 0 1rem black;
+    background-image: url("/backgroundtheee.jpg");
+    background-size: cover;
+}
+
+.container{
+    height: 72vh;
+     display: flex;
+   justify-content: center;
+    align-items: center;
+    margin: 2vmin;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Red_X.svg/480px-Red_X.svg.png");
+    background-size: cover
+}
+.game{
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3vmin;
+     box-shadow: 0 0 2rem blue;
+    border-radius: 3vmin;
+    background-color:#75E6DA;
+   
+    
+    
+}
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 2rem #05445E ;
+    font-size: 10vmin;
+    font-weight: 700;
+    color: red;
+    background-color: #D4F1F4;
+   
+    
+}
+.box1{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 2rem #05445E ;
+    font-size: 10vmin;
+    font-weight: 700;
+    color: blue;
+    background-color: #D4F1F4;
+
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 2rem white;
+    width: 15rem;
+}
+#newbutton{
+     padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem white;
+    width: 15rem;
+}
+#msg{
+    color: red;
+    font-size: 14vmin;
+    font-weight: 700;
+   
+}
+
+.msgcontainer{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
+
+
+}
+.hide{
+    display: none;
+}
