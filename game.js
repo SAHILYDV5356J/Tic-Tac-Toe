@@ -51,7 +51,11 @@ boxes.forEach((box)=>{
        }
        box.disabled=true;
        counting++;
+       
        checkwinner();
+
+       
+
        
     });
 });
@@ -90,14 +94,16 @@ const checkwinner=()=>{
        if(pos1val===pos2val && pos2val===pos3val){
         
         showwinner(pos1val);
-           counting--;
+        counting--;
        }
-        if(counting===9){
-            count();
+       if(counting===9){
+        count();
+       }
+       
     }
     }
 
-} 
+}
 
 const count=()=>{
           msg.innerText=  "Match Is Draw Play Again ";  
@@ -108,6 +114,8 @@ const count=()=>{
 
 newgamebutton.addEventListener("click",resetgame);
 resetbutton.addEventListener("click",resetgame);
+
+
 
 
 
