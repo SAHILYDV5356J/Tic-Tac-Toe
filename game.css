@@ -8,7 +8,7 @@ body{
     font-size: 2rem;
     color: red;
     text-shadow:0 0 1rem black;
-    background-image: url("/backgroundtheee.jpg");
+    background-image: url("backgroundtheee.jpg");
     background-size: cover;
 }
 
