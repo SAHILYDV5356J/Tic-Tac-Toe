@@ -51,12 +51,7 @@ boxes.forEach((box)=>{
        }
        box.disabled=true;
        counting++;
-       if(counting===9){
-        count();
-       }
-       else{
        checkwinner();
-       }
        
     });
 });
