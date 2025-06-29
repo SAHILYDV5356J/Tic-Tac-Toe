@@ -9,20 +9,25 @@ body{
     color: red;
     text-shadow:0 0 1rem black;
     background-image: url("backgroundtheee.jpg");
-    background-size: cover;
+   
     
+
+   
     
 }
 
 .container{
     height: 72vh;
      display: flex;
+     flex-direction: column;
    justify-content: center;
     align-items: center;
-    margin: 2vmin;
+
+    margin: 2vmin 2vmin 2vmin 2vmin;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Red_X.svg/480px-Red_X.svg.png");
     background-size: cover
 }
+
 .game{
     height: 70vmin;
     width: 70vmin;
@@ -70,7 +75,7 @@ body{
     color: #fff;
     border-radius: 1rem;
     border: none;
-    box-shadow: 0 0 2rem white;
+    box-shadow: 0 0 1rem white;
     width: 15rem;
 }
 #newbutton{
@@ -102,4 +107,57 @@ body{
 }
 .hide{
     display: none;
+}
+
+
+@media(max-width:400px){
+    body{
+   
+    background-image: url("oxbackmobile.jpg");
+    background-size: cover;
+     background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    height: 62vh;
+    margin: 0vmin 3vmin 0 2vmin ;
+    background-size: contain;
+
+    
+   
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem ;
+    
+    
+    height: 18vh;
+    width: 85vw;
+    font-size: 3rem;
+      
+}
+.mundi{
+   
+    height: 120px;
+    width: 120px;
+   
+    background-image: url("mundi.png");
+    background-size: cover;
+   
+    
+
+
+}
+#reset{
+    margin-top: 2rem;
+   
+}
+
+
+
+
 }
